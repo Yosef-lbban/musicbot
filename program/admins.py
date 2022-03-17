@@ -121,7 +121,7 @@ async def pause(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **خطأ :**\n\n`{e}`")
     else:
-        await m.reply("❌ **لايوجد صوت بدردشه الصوتية**")
+        await m.reply("❌ **لايوجد صوت بدردشة الصوتية**")
 
 
 @Client.on_message(
@@ -139,7 +139,7 @@ async def resume(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **خطأ :**\n\n`{e}`")
     else:
-        await m.reply("❌ **لا يوجد صوتيات بدردشه الصوتية ❌**")
+        await m.reply("❌ **لا يوجد صوتيات بدردشة الصوتية ❌**")
 
 
 @Client.on_message(
@@ -175,7 +175,7 @@ async def unmute(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **خطأ :**\n\n`{e}`")
     else:
-        await m.reply("❌ **لا يوجد صوت بدردشه الصوتية**")
+        await m.reply("❌ **لا يوجد صوت بدردشة الصوتية**")
 
 
 @Client.on_callback_query(filters.regex("cbpause"))
