@@ -139,7 +139,7 @@ async def resume(client, m: Message):
         except Exception as e:
             await m.reply(f"🚫 **خطأ :**\n\n`{e}`")
     else:
-        await m.reply("❌ **لا يوجد اغنية بدردشه الصوتية ❌**")
+        await m.reply("❌ **لا يوجد صوتيات بدردشه الصوتية ❌**")
 
 
 @Client.on_message(
