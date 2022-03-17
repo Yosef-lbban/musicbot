@@ -13,54 +13,54 @@
     "success_url": "https://t.me/dlwrml",
     "env": {
         "API_ID": {
-            "description": "your API_ID from my.telegram.org",
+            "description": "جيب اي بي ايدي من هنا my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "your API_HASH from my.telegram.org",
+            "description": "جيب اي بي هاش من هنا.telegram.org",
             "required": true
         },
         "BOT_TOKEN": {
-            "description": "your bot token from @BotFather",
+            "description": "توكن البوت",
             "required": true
         },
         "BOT_USERNAME": {
-            "description": "your bot username from @BotFather",
+            "description": "يوزر البوت بدون هذي العلامة @",
             "required": true
         },
         "BOT_NAME": {
-            "description": "fill with your bot name from @BotFather",
+            "description": "اسم البوت تبعك",
             "required": true
         },
         "ASSISTANT_NAME": {
-            "description": "fill with the assistant username account without @",
+            "description": "يوزر نيم المساعد بدون هذي العلامة @",
             "required": true
         },
         "SESSION_NAME": {
-            "description": "fill with the pyrogram String Session",
+            "description": "الكود الطويل",
             "required": true
         },
         "SUDO_USERS": {
-            "description": "list of user ids to be added to sudo member list, or just fill with your id",
+            "description": "ايدي المطور",
             "required": true
         },
         "GROUP_SUPPORT": {
-            "description": "if you have group, then fill the group username here without @",
+            "description": "يوزر قروب الدعم بدون هذي العلامة @",
             "required": true,
             "value": "VeezSupportGroup"
         },
         "UPDATES_CHANNEL": {
-            "description": "if you have channel, then fill the channel username here without @",
+            "description": "قناتك بدون هذي العلامة@",
             "required": true,
             "value": "levinachannel"
         },
         "OWNER_NAME": {
-            "description": "fill with your telegram account username without @",
+            "description": "يوزر المطور بدون هي العلامة @",
             "required": true,
             "value": "dlwrml"
         },
         "ALIVE_NAME": {
-            "description": "fill with your telegram account nickname/name",
+            "description": "حط اي اسمي عربي أو انجليزي",
             "required": true,
             "value": "Levina"
         }
