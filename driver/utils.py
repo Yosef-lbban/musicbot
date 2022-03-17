@@ -113,7 +113,7 @@ async def stream_end_handler(_, u: Update):
         if op==1:
            await bot.send_message(chat_id, "✅ **تم قطع اتصال البوت من دردشة الفيديو.**")
         elif op==2:
-           await bot.send_message(chat_id, "❌ **حدث خطأ**\n\n» **المقاسه** __قوائم الانتظار__ **ومغادره دردشة  الفيديو.**")
+           await bot.send_message(chat_id, "❌ **حدث خطأ**\n\n» **المقاسه** __قوائم الانتظار__ **ومعادرة دردشة  الفيديو.**")
         else:
          await bot.send_message(chat_id, f"💡 **يجري المسار التالي**\n\n🏷 **العنوان:** [{op[0]}]({op[1]}) | `{op[2]}`\n💭 **الدردشة:** `{chat_id}`", disable_web_page_preview=True, reply_markup=keyboard)
     else:
